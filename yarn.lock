@@ -164,12 +164,17 @@ utf-8-validate@^5.0.2:
   dependencies:
     node-gyp-build "^4.2.0"
 
-vue-supabase@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/vue-supabase/-/vue-supabase-1.0.6.tgz#66764ef25c30dac7767f89fc767b728f6694dd32"
-  integrity sha512-/uw3QVU+VTkM1rdg8gVbhIhatPDVGvc8TJQLQMP9rvpkeL18/Gyk0JnqNcLzZ6qWXZmMgp/E1RWxjfsg3Vbv9g==
+vue-demi@^0.11.2:
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.11.2.tgz#faa06da53887c493a695b997f4fcb4784a667990"
+  integrity sha512-J+X8Au6BhQdcej6LY4O986634hZLu55L0ewU2j8my7WIKlu8cK0dqmdUxqVHHMd/cMrKKZ9SywB/id6aLhwCtA==
+
+"vue-supabase@git://github.com/sduduzog/vue-supabase#use-vue-demi":
+  version "1.0.4"
+  resolved "git://github.com/sduduzog/vue-supabase#a735908e08c55864eea346bc07ceded0fa349945"
   dependencies:
     "@supabase/supabase-js" "^1.4.2"
+    vue-demi "^0.11.2"
 
 websocket@^1.0.34:
   version "1.0.34"
