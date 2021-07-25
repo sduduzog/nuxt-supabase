@@ -8,6 +8,6 @@ Vue.use(VueSupabase, {
 
 // Inject Supabase into Nuxt Context
 export default (ctx, inject) => {
-  console.log(Vue.supabase)
+  ctx.$supabase = Vue.supabase;
   inject('supabase', Vue.supabase)
 }

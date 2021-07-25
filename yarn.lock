@@ -3,9 +3,9 @@
 
 
 "@supabase/gotrue-js@^1.16.6":
-  version "1.16.7"
-  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-1.16.7.tgz#7e003e4c8cdef973c4dc3c67900439e23d4982ea"
-  integrity sha512-aRqwVLPPYQn616cG4SSlX/buEDiPG6/CBycpamaF6TAVm4C+lMTxaMIr7asNgV9SoGNGP4cQpluiRrNFZ6mNBw==
+  version "1.17.0"
+  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-1.17.0.tgz#0ff46f844ddd124543d2769da8eda58ab479b49b"
+  integrity sha512-c+GSSoW+PIT3/r7TnBdc4gPjtWDutO/2ROafSKUFl39Pb8aHIUbUvzK9sjuedaaLKH7bV8VefuRy2L8c0BUAzg==
   dependencies:
     cross-fetch "^3.0.6"
 
@@ -42,9 +42,9 @@
     "@supabase/storage-js" "^1.4.0"
 
 "@types/node@*":
-  version "16.4.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.4.0.tgz#2c219eaa3b8d1e4d04f4dd6e40bc68c7467d5272"
-  integrity sha512-HrJuE7Mlqcjj+00JqMWpZ3tY8w7EUd+S0U3L1+PQSWiXZbOgyQDvi+ogoUxaHApPJq5diKxYBQwA3iIlNcPqOg==
+  version "16.4.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.4.2.tgz#0a95d7fd950cb1eaca0ce11031d72e8f680b775a"
+  integrity sha512-vxyhOzFCm+jC/T5KugbVsYy1DbQM0h3NCFUrVbu0+pYa/nr+heeucpqxpa8j4pUmIGLPYzboY9zIdOF0niFAjQ==
 
 "@types/websocket@^1.0.3":
   version "1.0.3"
@@ -171,7 +171,7 @@ vue-demi@^0.11.2:
 
 "vue-supabase@git://github.com/sduduzog/vue-supabase#use-vue-demi":
   version "1.0.4"
-  resolved "git://github.com/sduduzog/vue-supabase#a735908e08c55864eea346bc07ceded0fa349945"
+  resolved "git://github.com/sduduzog/vue-supabase#f36d1c7d416c5346cb7c21474fefdec6ba56c751"
   dependencies:
     "@supabase/supabase-js" "^1.4.2"
     vue-demi "^0.11.2"
