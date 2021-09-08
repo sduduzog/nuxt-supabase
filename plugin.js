@@ -10,7 +10,6 @@ const supabaseClient = createSupabase(options)
 
 Vue.use(supabaseClient)
 
-export default supabaseClient;
 export default (ctx, inject) => {
   ctx.$supabase = supabaseClient;
   inject('supabase', supabaseClient)
