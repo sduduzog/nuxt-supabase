@@ -1,4 +1,4 @@
-import { SupabaseClient } from 'vue-supabase'
+import { SupabaseClient  } from 'vue-supabase'
 
 declare module 'vue/types/vue' {
   interface Vue {

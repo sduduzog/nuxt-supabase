@@ -1,12 +1,17 @@
 import Vue from 'vue'
-import VueSupabase from 'vue-supabase'
+import { createSupabase} from 'vue-supabase'
 
-Vue.use(VueSupabase, {
+const options = {
   supabaseUrl: '<%= options.supabaseUrl %>',
   supabaseKey: '<%= options.supabaseKey %>'
-})
+}
 
-// Inject Supabase into Nuxt Context
+const supabaseClient = createSupabase(options)
+
+Vue.use(supabaseClient)
+
+export default supabaseClient;
 export default (ctx, inject) => {
-  inject('supabase', Vue.supabase)
+  ctx.$supabase = supabaseClient;
+  inject('supabase', supabaseClient)
 }
