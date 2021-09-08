@@ -18,4 +18,4 @@ declare module 'vuex' {
   }
 }
 
-export default { SupabaseClient, AuthUser, AuthSession };
+export { SupabaseClient, AuthUser, AuthSession };
