@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { createSupabase} from 'vue-supabase'
+import { createSupabase } from 'vue-supabase'
 
 const options = {
   supabaseUrl: '<%= options.supabaseUrl %>',
