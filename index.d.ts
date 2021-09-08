@@ -1,4 +1,4 @@
-import { SupabaseClient  } from 'vue-supabase'
+import { SupabaseClient, AuthUser, AuthSession } from 'vue-supabase'
 
 declare module 'vue/types/vue' {
   interface Vue {
@@ -17,3 +17,5 @@ declare module 'vuex' {
     $supabase: SupabaseClient
   }
 }
+
+export default { SupabaseClient, AuthUser, AuthSession };
